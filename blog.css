@@ -1,0 +1,254 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.header-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 9;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-align: left;
+  overflow-x: hidden;
+  line-height: 22px;
+}
+.container1 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.banner{
+background: rgba(0, 0, 0, 0.40);
+height: 8vh;
+font-size: 13px;
+padding: 1px 300px;
+margin: 0 auto;
+line-height: 80px;
+display: flex;
+justify-content: space-between;
+/* min-width: 90vw; */
+}
+li{
+  display: inline;
+  
+}
+
+.navbar-logo h1{
+    color: #fff;
+    padding: 5px;
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: 17px;
+    text-decoration: none;
+    list-style: none;
+}
+a{
+  text-decoration: none;
+    list-style: none;
+    color:#fff;
+}
+.nav-bar a{
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 24px 10px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+
+}
+
+.nav-bar a:hover{
+  color: #3EC1D5;
+}
+h1{
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  margin-left: 40px;
+}
+.page-area {
+  position: relative;
+}
+.header-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(./img/blog/slider1.jpg);
+  opacity: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  height: 50rem;
+  filter: brightness(0.5);
+  z-index: 2;
+}
+.title1{
+  font-size:larger;
+  color: #fff;
+}
+footer{
+  /* background-color:rgb(215, 232, 248) ; */
+  height: 30px;
+  margin-top: 1000px;
+  margin-left: 0px;
+  
+}
+h6{
+  font-family: 'Open Sans', sans-serif;
+  display:inline-block;
+	text-align: center;
+font-size: 13px;
+	width: 100%;
+  background: #f1f1f1 none repeat scroll 0 0;
+  padding: 15px 0;
+}
+.footer{
+  color:rgb(38, 165, 197);
+}
+span{
+  color:rgb(38, 165, 197);
+}
+.logo-header{
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 48px;
+    line-height: 25rem;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 500;
+
+}
+.logo-header1{
+  text-align: center;
+  margin-top: 100px;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 28px;
+    line-height: 0px;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 500;
+
+}
+.title2{
+  font-size:larger;
+  margin-top: 50px;
+  color: #fff;
+}
+
+    /* banner-dates */
+.container {
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+  /* font-weight: 500; */
+  letter-spacing: 1px;
+}
+    .footer-area {
+      padding: 100px 0;
+      background: #f9f9f9;
+  }
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer-content {
+  display: block;
+  overflow: hidden;
+}
+.title-info h4{
+  color: #444;
+  font-size: 16px;
+  text-transform: uppercase;
+  /* margin-left: 10px; */
+  margin-right: 10px;
+  letter-spacing: 2px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+.footer-area p{
+  font-size: 17px;
+  padding: 20px 0px;
+}
+.footer-area p span{
+  color: #3EC1D5;
+  font-weight: 700;
+}
+
+.address-info{
+  padding-top: 30px;
+}
+/* .address-info i{
+  margin-left: 145px;
+} */
+.phone{
+  margin-bottom: 52px;
+}
+
+.container i {
+  font-size: 25px;
+  /* margin-left: 100px; */
+}
+.panel-icons .footer-icons i, li{
+font-size: 18px;
+margin-left: 1px;
+}
+/* .footer-icons li {
+  margin-left: 40px;
+} */
+
+.footer-icons {
+  margin-top: 30px;
+}
+.footer-icons ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-icons ul li {
+  display: inline-block;
+}
+
+.footer-icons ul li a {
+  border: 1px solid #444;
+  color: #444;
+  display: block;
+  font-size: 16px;
+  height: 40px;
+  line-height: 38px;
+  margin-right: 5px;
+  text-align: center;
+  width: 40px;
+  border-radius: 50%;
+}
+.footer-icons a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+
+}
+.footer-icons a:hover{
+  background: #3EC1D5;
+  text-shadow: none;
+  color:#fff;
+}
+.footer-icons ul li a:hover {
+border:#3EC1D5;
+}
+
+/* para cada clase de cada casilla */
+/* .title-info p{
+    color: #444;
+    margin: 0 0 15px;
+} */
+/* ------------------------------------------- */
