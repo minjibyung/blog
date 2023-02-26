@@ -145,7 +145,7 @@ span{
   color: #fff;
 }
 
-    /* banner-dates */
+    /* -----------banner-dates-------------- */
 .container {
   display: flex;
   justify-content: space-around;
@@ -288,9 +288,86 @@ margin-left: 10px;
 border:#3EC1D5;
 }
 
-/* para cada clase de cada casilla */
-/* .title-info p{
-    color: #444;
-    margin: 0 0 15px;
-} */
-/* ------------------------------------------- */
+.area-padding {
+  padding: 80px 0px 60px;
+}
+
+/* ---------categories------------- */
+
+.left-blog1 {
+  background: #f9f9f9 none repeat scroll 0 0;
+  margin-bottom: 2px;
+  overflow: hidden;
+  padding-bottom: 10px;
+  margin-top: 50px;
+  margin-left: 7em;
+  margin-right: 103em;
+}
+.left-blog1 li {
+  border-bottom: 1px solid #ddd;
+  display: block;
+}
+.left-blog1 h4 {
+  border-bottom: 1px solid #ddd;
+  background: #3EC1D5;
+  color: #444;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 0;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+h4 {
+  font-size: 24px;
+  line-height: 26px;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 0 15px;
+
+}
+
+li{
+  text-align: -webkit-match-parent;
+}
+ul {
+  list-style: outside none none;
+}
+.left-blog1 ul li a {
+  color: #444;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  text-transform: capitalize;
+  text-align: center;
+}
+a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+a {
+  background-color: transparent;
+}
+
+/* -------search-------- */
+
+form {
+  display: block;
+  margin-top: 12em;
+  margin-left: 7em;
+}
+.search-option {
+  border: 1px solid #3EC1D5;
+  height: 58px;
+  width: 27em;
+  margin-bottom: 30px;
+}
+.search-option input {
+  border: medium none;
+  padding: 18px 10px;
+  width: 355px;
+}
+input, input[type="text"]{
+box-shadow: none !important;
+font-size: 18px;
+}
+
