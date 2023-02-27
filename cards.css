@@ -39,31 +39,27 @@
   .button:hover {
     background-color: #0069d9;
   } */
-*{
-  padding: 0;
-  margin: 0;
-}
+
   .recent-single-post {
-    display: block;
+    /* display: block; */
     border-bottom: 2px solid rgb(221, 221, 221);
-    overflow: hidden;
-    padding: 25px 15px;
-   margin-left: 42%;
-   margin-top: 45px;
+    /* overflow: hidden; */
+    padding: 25px 100px;
+   margin-left: 680px;
+padding-top: 20px;
+margin-right: 157px;
+
+   /* margin-top: 45px; */
 }
 .left-blog {
-  margin-bottom: 30px;
-  padding-bottom: 20px;
-  /* background: none 0px 0px repeat scroll rgb(249, 249, 249); */
-  overflow: hidden;
-  padding-top: 15px;
+  margin-top: -760px;
 }
 .left-blog h4 {
   color: rgb(68, 68, 68);
   background: none 0px 0px repeat scroll rgb(249, 249, 249);
   font-size: 17px;
   font-weight: 500;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   text-transform: uppercase;
   border-bottom: 1px solid rgb(221, 221, 221);
   padding: 10px 10px;
@@ -86,7 +82,7 @@ h4 {
 .post-img {
   display: inline-block;
   width: 200px;
-  padding: 32px 2px;
+  padding: 70px 2px;
   margin-right: 15px;
 
 }
@@ -117,7 +113,9 @@ img {
   color: rgb(68, 68, 68);
   margin: 0px 2px 5px;
 font-size: 17px;
-margin-top: 10px;
+
+
+/* margin-top: 10px; */
 }
 .button {
   display: inline-block;
@@ -127,7 +125,7 @@ margin-top: 10px;
   border-radius: 2px;
   text-decoration: none;
   margin-top: 10px;
-  margin-left: 22em;
+  margin-left: 180px;
 }
 
 .button:hover {
