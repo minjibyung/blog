@@ -45,9 +45,9 @@
     border-bottom: 2px solid rgb(221, 221, 221);
     /* overflow: hidden; */
     padding: 25px 100px;
-   margin-left: 680px;
+   margin-left: 780px;
 padding-top: 20px;
-margin-right: 157px;
+margin-right: 155px;
 
    /* margin-top: 45px; */
 }
@@ -104,6 +104,8 @@ img {
   display: inline-block;
   width: 40%;
   margin-left: 10px;
+
+
 /* padding-right: 10px; */
 }
 /* .pst-content {
@@ -113,6 +115,8 @@ img {
   color: rgb(68, 68, 68);
   margin: 0px 2px 5px;
 font-size: 17px;
+word-wrap: break-word;
+text-align: justify;
 
 
 /* margin-top: 10px; */

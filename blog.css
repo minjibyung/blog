@@ -371,3 +371,15 @@ box-shadow: none !important;
 font-size: 18px;
 }
 
+.wpp-img{
+  width: 70px;
+  height: 70px;
+}
+.wpp-img a{
+color: #000;
+}
+.space-wpp{
+ margin-left: 110rem;
+ margin-top: -760px;
+}
+
