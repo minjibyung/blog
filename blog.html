@@ -9,6 +9,8 @@
   <link href="img/blog/logo.png" rel="icon">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
   <link href="blog.css" rel="stylesheet">
+  <script src="jquery-3.6.1.js"></script>
+  <script src="buscador.js"></script>
   <link href="cards.css" rel="stylesheet">
    <!-- Libraries CSS Files -->
    <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet">
@@ -44,7 +46,7 @@
                   <a class="link-page" href="#">Promociones</a>
                   </li>
                   <li>
-                    <a class="link-page" href="#">Blog</a>
+                    <a class="link-page" href="blog.html">Blog</a>
                     </li>
                     <li>
                       <a class="link-page" href="#">Contacto</a>
@@ -72,14 +74,12 @@
 
            <!-- search option start -->
 
-       <form action="#">
-        <div class="search-option">
-          <input type="text" placeholder="Search...">
+       <form>
+        <div class="search-option" id="searchform">
+          <input type="text" name="buscador" id="search" placeholder="Search...">
         </div>
       </form>
       <!-- search option end -->
-    </div>
-</div>
 
 <!-- ---------categories-------------- -->
 
@@ -208,19 +208,40 @@
   </div>
 </div>
 
+<!---------------slider------------------------>
 
-<!-- -------link contact------- -->
+<ul class="menu">
+  <li>
+    <a href="blog.html">1</a>
+  </li>
+  <li>
+    <a href="#">2</a>
+  </li>
+   <li>
+    <a href="#">3</a>
+  </li>
+  <li>
+    <a href="#">4</a>
+  </li>
+  <li>
+    <a href="#">5</a>
+  </li>
+</ul>
+
+<!-- -------link contact wpp------- -->
 
 <div class="space-wpp">
-  <div class="contact-wpp">
-    <div class="wpp-img">
-    <a href="https://api.whatsapp.com/send?phone=3166105461" target="_blank ">
-      <img src="https://img.icons8.com/color/512/whatsapp--v1.png" alt="enlace-wpp">
+    <a href="https://api.whatsapp.com/send?phone=3204415807&text=Hola, me gustaría saber mas información." class="float" target="_blank ">
+      <i class="fa fa-whatsapp my-float"></i>
+      <!-- <img src="https://img.icons8.com/color/512/whatsapp--v1.png" alt="enlace-wpp"> -->
       </a>
   </div>
-</div>
-</div>
-</div>
+
+<!-- ---------------link cita------------------ -->
+
+<a href="#" class="float1">
+  <div>Pide tu cita ¡Aqui!</div>
+</a>
 
 <!-- space banner dates -->
 
